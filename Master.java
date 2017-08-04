@@ -4,7 +4,7 @@ import javax.swing.*;
 class Master
 {
     static Body currentbody;
-    public static void main() throws java.io.IOException
+    public static void main(String[] args) throws java.io.IOException
     {
         menu();
         JFrame frame=new JFrame("N-Body");
